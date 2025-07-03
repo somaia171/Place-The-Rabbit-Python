@@ -3,9 +3,7 @@ farm = [["🌿","🌿","🌿"],["🌿","🌿","🌿"],["🌿","🌿","🌿"]]
 print("Welcome to place the rabbit.\n")
 print(f"{farm[0]}\n{farm[1]}\n{farm[2]}\n")
 print("Where should the rabbit go? 🐇")
-
 colomn = int(input("\nPlease choose colomn number: "))
-
 if colomn == 1 or colomn == 2 or colomn == 3:
     raw = int(input("Please choose raw number: "))
     if raw == 1 or raw == 2 or raw == 3:
